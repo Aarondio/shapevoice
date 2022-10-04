@@ -1,0 +1,62 @@
+@media screen and (min-width:992px) {
+
+    .tab-hide {}
+}
+
+@media screen and (min-width:375px) and (max-width:991px) {
+
+    /*this media query will be active for devices below 992px and will be inactive
+       from 992px
+     */
+
+    .hidee {
+        display: none;
+    }
+
+    .font-3 {
+        font-size: 2.75rem;
+    }
+
+    .ml-minus {
+        /*removes the intial margin left of -9rem to 0*/
+        margin-left: 0;
+    }
+
+    .mt-half {
+        margin-top: 5%;
+    }
+
+    .mobile-hide {
+        display: none;
+    }
+
+    .p-0 {
+        padding: 0;
+    }
+
+
+}
+
+@media only screen and (max-width:480px) {
+    .d-flex1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mt-mobile {
+        /* this class will only be available for screen sizes below 481px */
+        margin-top: 1.5rem;
+    }
+
+    .ps-5 {
+        padding-left: 0;
+    }
+
+
+
+    .mobile-between {
+        justify-content: space-between;
+    }
+
+
+}
